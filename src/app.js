@@ -59,6 +59,7 @@ function App() {
                             <div>
                                 <button onClick={() => editTask(task.id)}>Edit</button>
                                 <button onClick={() => deleteTask(task.id)}>Delete</button>
+                                <button onClick={() => toggleComplete(task.id)}>Complete</button>
                             </div>
                         </li>
                     ))}
